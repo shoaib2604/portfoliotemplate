@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{%load staticfiles%}
+{%block content%}
+<div class="container index">
+  <div class="center">
+    <div class="Hello">
+      <h1 style="font-weight:800;">Hello! </h1>
+    </div>
+  <div class="name">
+     <h2 style="font-weight:bold;">Myself Shoaib Khan</h2>
+  </div>
+    <div class="dev">
+      <h4 style="font-weight:630;">A full stack Developer and Seo</h3>
+    </div>
+  </div>
+
+</div>
+
+
+  <ul class="nav justify-content-center links">
+  <li class="nav-item">
+    <a class="nav-link active" href="#"><img src="{%static 'images/gmail.png'%}" width="50" height="50" alt=""></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><img src="{%static 'images/octocat.png'%}" width="50" height="50" alt=""></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><img src="{%static 'images/linkedd.png'%}" width="50" height="50" alt=""></a>
+  </li>
+
+</ul>
+
+{%endblock%}

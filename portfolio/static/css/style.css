@@ -1,0 +1,152 @@
+html,body{
+  height: 100%; min-height: 100%;
+}
+.links{
+  margin-top:4%;
+  margin-right:14% ;
+}
+.intro{
+  margin-top:120px;
+  color: white;
+}
+.about{
+  margin-top: 130px;
+
+}
+.brief{
+  font-family: 'PT Sans', sans-serif;
+  color: #EBEDEF;
+}
+.skill{
+  color:#EBEDEF;
+  font-family: 'Patua One', cursive;
+}
+.ques{
+  font-family: 'Patua One', cursive;
+  color:#F5EEF8  ;
+}
+.bar{
+  color: white;
+  margin-top: 3%;
+}
+#bg{
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  width: 100%;
+
+  background-position:center top;
+}
+.h{
+  color: red;
+}
+.card{
+  margin-top: 200px;
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+.form{
+
+
+
+  max-width:800px;
+  min-width:100px;
+  border:1px solid white;
+
+}
+.forms{
+  color: white;
+  font-weight: bold;
+  font-size:17px;
+  font-variant: small-caps;
+  font-family: sans-serif;
+  padding-top:200px;
+
+}
+.x{
+  margin-left:19px;
+  max-width: 450px;
+
+}
+.btn.submit{
+margin-top: 50px;
+margin-right: 0px;
+margin-left: 100px;
+min-width: 400px; }
+.center{
+  color: white;
+  border: 1px solid none;
+  max-width: 600px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.index{
+  padding-top: 150px;
+  min-width: 100%;
+}
+.Hello{
+  margin-left: 105px;
+}
+.name{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.dev{
+margin-left:20px;
+
+margin-top: 20px;
+}
